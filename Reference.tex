@@ -1,0 +1,130 @@
+\documentclass[a4paper,10pt,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, margin=1cm, landscape]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\setlength{\columnsep}{1cm}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+
+\lstdefinestyle{codestyle}{
+    numberstyle=\tiny,
+    numbers=left,
+    frame=single,
+}
+\lstset{style=codestyle, language=C++}
+
+%opening
+\title{Reference}
+\author{Acetilsalicilic}
+
+
+
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\vspace{1.5cm}
+
+\section{Template}
+\subsection{Acetil's template}
+
+\lstinputlisting[caption=Acetil's template]{../template/template.cpp}
+
+\subsection{Alternative to bits/stdc++.h}
+
+\section{Languge stuff} % ### LANGUAGE STUFF ###
+\subsection{Primitive types}
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c| }
+ \hline
+ \textbf{keyword} & \textbf{Bytes} & \textbf{M$_{2}$} & \textbf{m$_{2}$} & \textbf{M$_{10}$} & \textbf{m$_{10}$}\\
+ \hline
+ int & 4 & $2\cdot 10^9$ & $-2\cdot 10^9$ & $2^{31} - 1$ & $-2^{31}$ \\
+ \hline
+ long long & 8 & $2^{63} - 1$ & $-2^{63}$ & $9\cdot10^{18}$ & $-9\cdot10^{18}$ \\
+ \hline
+\end{tabular}
+\end{center}
+
+\subsection{Useful macros}
+\subsubsection{Limits}
+
+\begin{itemize}
+ \item INT\_MAX: Max integer value
+ \item LONG\_MAX: Max long int value
+ \item LLONG\_MAX: Max long long int value
+\end{itemize}
+
+\section{Algorithms} % ### ALGORITHMS ###
+\subsection{Binary search}
+
+\subsubsection{Fast square root}
+
+\subsection{Misc}
+\subsubsection{Binary exponentiation}
+Calculate expontents in logarithmic time
+
+\subsubsection{Mid point calculation}
+
+\subsection{Segment Tree}
+A segment tree is stored as a vector of the datatype it stores. For simple problems, an int type is enough. For more complex or lazy propagation, a Node structure is required. The segtree is stored in a list, that must have a size of $2N$, where $N$ is the smallest power of two so that $N >= n$. This is necesary so the binary tree that holds the segtree is complete and can behave correctly.
+
+\paragraph{Elements of a SegTree} To build a segment tree, these things are required: an operation, that must be \textbf{associative} and preferably, they must have an \textbf{identity element}.
+
+\paragraph{Structure} Each node of a segtree has a node, and given a node $i$, it's left child is at index $2i$, and it's right children is at $2i + 1$. The root is at $i=1$.
+
+\paragraph{Operations} The operations on a SegTree usually include the following:
+\begin{itemize}
+ \item The index of the node, usually $i$
+ \item The range over the list, $[l, r]$, where $l \geq 0;~ r <n$.
+\end{itemize}
+It's important that the range over the list is used as \textbf{zero indexed}, because the original array is zero indexed too.
+
+\subsubsection{Recursive}
+\paragraph{Intuition} Each recursive function call represent a current node. This is achieved by passing an $i$ parameter, which is the index of the node inside of the vector representing the tree. Also, two other parameters (tl and tr, standing for temporal low and temporal high respectively) represent the ``reach'', or the interval over the original list of elements a that the current node represents (as $[tl, th]$).
+
+\paragraph{Elements} The following are the elements required for a recursive segment tree. Each element is defined as following:
+
+\begin{itemize}
+ \item vector$<$int$>$ tree: The tree itself
+ \item vector$<$int$>$ a: The original list of elements, read directly from stdin.
+ \item int n: The size of a, the number of elements on the list input.
+ \item int N: The smallest power of two so that $N \geq n$. If $n=5$, then $N=8$.
+ \item int len: The actual size of the segtree, len$=2N$
+\end{itemize}
+
+\lstinputlisting[caption=Recursive segtree declaration stuff - common.cpp]{./ref_algos/recursive_segtree/common.cpp}
+
+Building is done starting from the root, where $i=1$. The recursive function descends through every branch, reducing the segment that each node covers (where the interval covered by node $i$ is defined as $[tl, tr]$) in half each time, similar to a binary search.
+
+\lstinputlisting[caption=Recursive build function]{./ref_algos/recursive_segtree/build.cpp}
+
+Querying is done combining the top-most nodes that are inside of the range.
+
+\lstinputlisting[caption=Recursive query function]{./ref_algos/recursive_segtree/query.cpp}
+
+Updating a position implies doing some binary-search-like traversal and updating a leaf and it's parents.
+
+\lstinputlisting[caption=Recursive update function]{./ref_algos/recursive_segtree/update.cpp}
+
+\subsubsection{Iterative}
+\subsubsection{Lazy Propagation}
+
+\section{Data Structures} % ### DATA SRUCTURES ###
+\subsection{Ordered Set}
+
+Exclusive of the GCC compiler collection.
+
+\lstinputlisting[caption=PBDS ordered set declaration]{./ref_algos/ordered_set.cpp}
+
+\section{Maths}
+\subsection{Value of pi}
+The value of $\pi$ is not always available. It can be obtained as $\cos^{-1}(-1)$.
+
+\end{document}
