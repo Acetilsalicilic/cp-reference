@@ -10,17 +10,22 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Fast square root}{2}{}%
 \contentsline {subsection}{\numberline {3.2}Misc}{2}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}Binary exponentiation}{2}{}%
+\contentsline {paragraph}{Modulo}{2}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}Mid point calculation}{2}{}%
 \contentsline {subsection}{\numberline {3.3}Segment Tree}{2}{}%
 \contentsline {paragraph}{Elements of a SegTree}{2}{}%
 \contentsline {paragraph}{Structure}{2}{}%
 \contentsline {paragraph}{Operations}{2}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}Recursive}{2}{}%
-\contentsline {paragraph}{Intuition}{2}{}%
-\contentsline {paragraph}{Elements}{2}{}%
-\contentsline {subsubsection}{\numberline {3.3.2}Iterative}{3}{}%
-\contentsline {subsubsection}{\numberline {3.3.3}Lazy Propagation}{3}{}%
-\contentsline {section}{\numberline {4}Data Structures}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Ordered Set}{3}{}%
-\contentsline {section}{\numberline {5}Maths}{4}{}%
-\contentsline {subsection}{\numberline {5.1}Value of pi}{4}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Recursive}{3}{}%
+\contentsline {paragraph}{Intuition}{3}{}%
+\contentsline {paragraph}{Elements}{3}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Iterative}{4}{}%
+\contentsline {paragraph}{Building}{4}{}%
+\contentsline {paragraph}{Update}{4}{}%
+\contentsline {paragraph}{Query}{4}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}Lazy Propagation}{4}{}%
+\contentsline {section}{\numberline {4}Data Structures}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Ordered Set}{4}{}%
+\contentsline {section}{\numberline {5}Maths}{5}{}%
+\contentsline {subsection}{\numberline {5.1}Value of pi}{5}{}%
+\contentsline {subsection}{\numberline {5.2}*Sigma function ($\sigma $)}{5}{}%

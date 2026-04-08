@@ -23,6 +23,7 @@
     - getline()
     - ignore()
 - Vector max size for datatypes
+- Lambda syntax
 
 # Format stuff
 - ¿All code reference in one file, or a listing/file per function?

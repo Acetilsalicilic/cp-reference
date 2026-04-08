@@ -57,8 +57,11 @@
 
 \begin{itemize}
  \item INT\_MAX: Max integer value
+ \item INT\_MIN: Min integer value
  \item LONG\_MAX: Max long int value
+ \item LONG\_MIN: Min long int value
  \item LLONG\_MAX: Max long long int value
+ \item LLONG\_MIN: Min long long int value
 \end{itemize}
 
 \section{Algorithms} % ### ALGORITHMS ###
@@ -68,14 +71,20 @@
 
 \subsection{Misc}
 \subsubsection{Binary exponentiation}
-Calculate expontents in logarithmic time
+Calculate expontents in logarithmic time.
+
+\lstinputlisting[caption=Binary exponentiation]{./ref_algos/binpow.cpp}
+
+\paragraph{Modulo} Somentimes the power is just too high, so if doing modulo is allowed, following the property $(a\times b) (mod~m)=[(a~mod~m)\times(b~mod~m)](mod~m)$:
+
+\lstinputlisting[caption=Binary exponentiation]{./ref_algos/binpowmod.cpp}
 
 \subsubsection{Mid point calculation}
 
 \subsection{Segment Tree}
-A segment tree is stored as a vector of the datatype it stores. For simple problems, an int type is enough. For more complex or lazy propagation, a Node structure is required. The segtree is stored in a list, that must have a size of $2N$, where $N$ is the smallest power of two so that $N >= n$. This is necesary so the binary tree that holds the segtree is complete and can behave correctly.
+A segment tree is stored as a vector of the datatype it stores. For simple problems, an int type is enough. For more complex or lazy propagation, a Node structure is required. The segtree is stored in a list, that must have a size of $4n$, where $n$ is the size of the given array $a$. This is necesary so the binary tree that holds the segtree is complete and can behave correctly.
 
-\paragraph{Elements of a SegTree} To build a segment tree, these things are required: an operation, that must be \textbf{associative} and preferably, they must have an \textbf{identity element}.
+\paragraph{Elements of a SegTree} To build a segment tree, these things are required: an operation, that must be \textbf{associative}, have an \textbf{identity elemeny} and, preferably, it must be \textbf{conmutative}.
 
 \paragraph{Structure} Each node of a segtree has a node, and given a node $i$, it's left child is at index $2i$, and it's right children is at $2i + 1$. The root is at $i=1$.
 
@@ -95,8 +104,7 @@ It's important that the range over the list is used as \textbf{zero indexed}, be
  \item vector$<$int$>$ tree: The tree itself
  \item vector$<$int$>$ a: The original list of elements, read directly from stdin.
  \item int n: The size of a, the number of elements on the list input.
- \item int N: The smallest power of two so that $N \geq n$. If $n=5$, then $N=8$.
- \item int len: The actual size of the segtree, len$=2N$
+ \item int N: The length of the vector that holds the tree, $N=4n$
 \end{itemize}
 
 \lstinputlisting[caption=Recursive segtree declaration stuff - common.cpp]{./ref_algos/recursive_segtree/common.cpp}
@@ -114,6 +122,20 @@ Updating a position implies doing some binary-search-like traversal and updating
 \lstinputlisting[caption=Recursive update function]{./ref_algos/recursive_segtree/update.cpp}
 
 \subsubsection{Iterative}
+The iterative version walks the tree starting from the leaves, and walks up until it reaches the root. The representation on the vector is the same.
+
+\paragraph{Building} It's not necesary to have a special build function. Utilizing the update function can acomplish the same goal.
+
+\paragraph{Update} Now, the representation in memory is as follows: The original array's elements are on the second half of the vector. So if we have $n$ elements in array $a$, then the first element $a_1$ will be on position $tree[2n]$, because we keep the array 0-indexed. Then the rest of the tree is found on the positions $i \in [1, 2n-1]$. So, to update, $pos$ must be the 0-indexed position of the element that will be updated. (TODO: is this true?)
+
+\lstinputlisting[caption=Iterative segtree elements]{./ref_algos/iterative_segtree/common.cpp}
+
+\lstinputlisting[caption=Iterative update/build function]{./ref_algos/iterative_segtree/update.cpp}
+
+\paragraph{Query} Querying the tree is different from the recursive aproach, cause we start on the leaves. So if the query interval is $[a, b]$, then we will work with $[a, b+1)$. Now, $a$ and $b$ must be 0-indexed.
+
+\lstinputlisting[caption=Iterative query]{./ref_algos/iterative_segtree/query.cpp}
+
 \subsubsection{Lazy Propagation}
 
 \section{Data Structures} % ### DATA SRUCTURES ###
@@ -123,8 +145,12 @@ Exclusive of the GCC compiler collection.
 
 \lstinputlisting[caption=PBDS ordered set declaration]{./ref_algos/ordered_set.cpp}
 
+
+
+
 \section{Maths}
 \subsection{Value of pi}
 The value of $\pi$ is not always available. It can be obtained as $\cos^{-1}(-1)$.
+\subsection{*Sigma function ($\sigma$)}
 
 \end{document}
