@@ -37,6 +37,10 @@
 
 \subsection{Alternative to bits/stdc++.h}
 
+Sometimes stdc++ can't be imported. Instead
+
+\lstinputlisting[caption=Alternative to bits/stdc++.h]{./ref_algos/bits_alternative.cpp}
+
 \section{Languge stuff} % ### LANGUAGE STUFF ###
 \subsection{Primitive types}
 
@@ -136,7 +140,24 @@ The iterative version walks the tree starting from the leaves, and walks up unti
 
 \lstinputlisting[caption=Iterative query]{./ref_algos/iterative_segtree/query.cpp}
 
+
+
 \subsubsection{Lazy Propagation}
+
+Lazy progapation solves the problem for update queries on an interval, they can be set queries, sum queries, or anything involving modifying an interval. The idea is queue the modification on a parent node, until it becomes necesary to update any further. It's more easily implemnted in a recursive way.
+
+\paragraph{Example} This example segment tree is prepared for the following queries:
+\begin{itemize}
+ \item Range sum query with $a, b, k$
+ \item Range set query with $a, b, k$
+ \item Range sum query with $a, b$
+\end{itemize}
+
+\lstinputlisting[caption=SegTree \& Lazy elements]{./ref_algos/lazy_prop/common.cpp}
+
+\paragraph{Build} While building, is important to correctly represent the identity. If we try to combine two nodes $a$ and $b$ with the custom $+$ operator, and imagine $a$ is initialized but $b$ isn't, then we must ensure that $a+b = a$ using the identity.
+
+\lstinputlisting[caption=SegTree build function]{./ref_algos/lazy_prop/build.cpp}
 
 \section{Data Structures} % ### DATA SRUCTURES ###
 \subsection{Ordered Set}
