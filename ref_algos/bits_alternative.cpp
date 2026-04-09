@@ -5,3 +5,5 @@
 #include <set>
 #include <vector>
 #include <map>
+/* for math functions */
+#include <cmath>

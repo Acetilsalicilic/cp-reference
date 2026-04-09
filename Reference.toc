@@ -26,8 +26,10 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Lazy Propagation}{5}{}%
 \contentsline {paragraph}{Example}{5}{}%
 \contentsline {paragraph}{Build}{6}{}%
-\contentsline {section}{\numberline {4}Data Structures}{6}{}%
-\contentsline {subsection}{\numberline {4.1}Ordered Set}{6}{}%
-\contentsline {section}{\numberline {5}Maths}{6}{}%
-\contentsline {subsection}{\numberline {5.1}Value of pi}{6}{}%
-\contentsline {subsection}{\numberline {5.2}*Sigma function ($\sigma $)}{6}{}%
+\contentsline {paragraph}{CSES Range Update Queries}{6}{}%
+\contentsline {section}{\numberline {4}Data Structures}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Ordered Set}{8}{}%
+\contentsline {section}{\numberline {5}Maths}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Value of pi}{8}{}%
+\contentsline {subsection}{\numberline {5.2}*Sigma function ($\sigma $)}{8}{}%
+\contentsline {subsection}{\numberline {5.3}Modular inverse}{8}{}%

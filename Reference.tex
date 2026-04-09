@@ -68,6 +68,12 @@ Sometimes stdc++ can't be imported. Instead
  \item LLONG\_MIN: Min long long int value
 \end{itemize}
 
+\subsection{How to compile}
+
+\lstinputlisting[caption=Compiling on therminal]{./ref_algos/compiling.sh}
+
+
+
 \section{Algorithms} % ### ALGORITHMS ###
 \subsection{Binary search}
 
@@ -159,6 +165,12 @@ Lazy progapation solves the problem for update queries on an interval, they can 
 
 \lstinputlisting[caption=SegTree build function]{./ref_algos/lazy_prop/build.cpp}
 
+% TODO: IS this really necesary?
+\paragraph{CSES Range Update Queries}
+This solution code is confirmed to pass all green on CSES
+
+\lstinputlisting[caption=CSES Range Update Queries Solution]{../cses/Range Update Queries/p.cpp}
+
 \section{Data Structures} % ### DATA SRUCTURES ###
 \subsection{Ordered Set}
 
@@ -173,5 +185,44 @@ Exclusive of the GCC compiler collection.
 \subsection{Value of pi}
 The value of $\pi$ is not always available. It can be obtained as $\cos^{-1}(-1)$.
 \subsection{*Sigma function ($\sigma$)}
+\subsection{Modular inverse}
+$$
+a\cdot a^{p-2} \cong 1 ~ (mod~ p) \rightarrow a^{-1} = a^{p-2}
+$$
+
+\subsection{Bitwise operations}
+\begin{itemize}
+ \item Get bit: \texttt{(n \& (1<<i)) != 0}
+ \item Set bit: \texttt{n |= (1 << i)}
+ \item Clear bit: \texttt{n \&= ~(1 << i)}
+ \item Toggle bit: \texttt{n \^{} = (1 << i)}
+ \item Get LSB: \texttt{n \& -n}
+ \item Clear LSB: \texttt{n \&= (n - 1)}
+\end{itemize}
+
+
+\subsubsection{Bitwise Equations}
+
+\paragraph{Properties}
+$$
+\begin{array}{rl}
+a | b &= a \oplus + a \& b \\
+a \oplus (a \& b) &= (a|b)\oplus b \\
+b \oplus (a \& b) &= (a | b)\oplus a \\
+(a \& b) \oplus (a|b) &= a\oplus b
+\end{array}
+$$
+
+\paragraph{Equations}
+$$
+\begin{array}{rl}
+ a+b &= (a|b)+(a \& b) \\
+ a+b &= a\oplus b + 2(a \& b) \\
+ a-b &= (a \oplus(a \& b))-((a|b)\oplus a) \\
+ a-b &= ((a|b)\oplus b) - ((a|b)\oplus a) \\
+ a-b &= (a \oplus (a\& b)) - (b \oplus (a \& b)) \\
+ a-b &= ((a|b)\oplus b) - (b\oplus (a\&b))
+\end{array}
+$$
 
 \end{document}
