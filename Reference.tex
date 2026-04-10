@@ -1,8 +1,19 @@
-\documentclass[a4paper,10pt,twocolumn]{article}
+\documentclass[a4paper,10pt,twocolumn, titlepage]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper, margin=1cm, landscape]{geometry}
+\usepackage[
+    a4paper,
+    margin=1.2cm,
+    landscape,
+    includehead,
+    nomarginpar]{geometry}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{fancyhdr}
+
+% Setting the headers
+\pagestyle{fancy}
+\fancyhead[c]{Team: Racso va a caer}
+
 
 \setlength{\columnsep}{1cm}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -15,8 +26,8 @@
 \lstset{style=codestyle, language=C++}
 
 %opening
-\title{Reference}
-\author{Acetilsalicilic}
+\title{Reference \\ \small Team: Racso va a Caer}
+\author{Iván Gálvez Rodríguez, et. al.}
 
 
 
