@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}Template}{1}{}%
 \contentsline {subsection}{\numberline {1.1}Acetil's template}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Alternative to bits/stdc++.h}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Alternative to bits/stdc++.h}{2}{}%
 \contentsline {section}{\numberline {2}Languge stuff}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Primitive types}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Useful macros}{2}{}%
@@ -30,11 +30,15 @@
 \contentsline {paragraph}{CSES Range Update Queries}{7}{}%
 \contentsline {section}{\numberline {4}Data Structures}{9}{}%
 \contentsline {subsection}{\numberline {4.1}Ordered Set}{9}{}%
+\contentsline {subsection}{\numberline {4.2}GCD}{9}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Logarithmic GCD}{9}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}LCM}{9}{}%
 \contentsline {section}{\numberline {5}Maths}{9}{}%
 \contentsline {subsection}{\numberline {5.1}Value of pi}{9}{}%
-\contentsline {subsection}{\numberline {5.2}*Sigma function ($\sigma $)}{9}{}%
-\contentsline {subsection}{\numberline {5.3}Modular inverse}{9}{}%
-\contentsline {subsection}{\numberline {5.4}Bitwise operations}{9}{}%
-\contentsline {subsubsection}{\numberline {5.4.1}Bitwise Equations}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Modular inverse}{9}{}%
+\contentsline {subsection}{\numberline {5.3}Bitwise operations}{9}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Bitwise Equations}{9}{}%
 \contentsline {paragraph}{Properties}{9}{}%
-\contentsline {paragraph}{Equations}{9}{}%
+\contentsline {paragraph}{Equations}{10}{}%
+\contentsline {subsection}{\numberline {5.4}Number of divisors}{10}{}%
+\contentsline {subsection}{\numberline {5.5}Sum of divisors (Sigma function $\sigma $)}{10}{}%

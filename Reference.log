@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.3.31)  10 APR 2026 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.3.31)  10 APR 2026 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -231,11 +231,10 @@ File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
-)
-(./ref_algos/bits_alternative.cpp [1
+ [1
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) (./
-ref_algos/compiling.sh)
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+(./ref_algos/bits_alternative.cpp) (./ref_algos/compiling.sh)
 (./ref_algos/binpow.cpp) (./ref_algos/binpowmod.cpp [2])
 (./ref_algos/recursive_segtree/common.cpp)
 (./ref_algos/recursive_segtree/build.cpp
@@ -244,8 +243,8 @@ LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
  [3])
 (./ref_algos/recursive_segtree/query.cpp)
 (./ref_algos/recursive_segtree/update.cpp)
-(./ref_algos/iterative_segtree/common.cpp)
-(./ref_algos/iterative_segtree/update.cpp [4])
+(./ref_algos/iterative_segtree/common.cpp [4])
+(./ref_algos/iterative_segtree/update.cpp)
 (./ref_algos/iterative_segtree/query.cpp) (./ref_algos/lazy_prop/common.cpp
 [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -266,41 +265,43 @@ Overfull \hbox (15.85014pt too wide) in paragraph at lines 76--77
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-(./ref_algos/ordered_set.cpp) [9] (./Reference.aux) ) 
+ [8])
+(./ref_algos/ordered_set.cpp) (./ref_algos/iter_gcd.cpp) (./ref_algos/lcm.cpp)
+[9] (./ref_algos/number_of_divisors.cpp) (./ref_algos/sigma.cpp) [10]
+(./Reference.aux) ) 
 Here is how much of TeX's memory you used:
- 4415 strings out of 476041
- 63716 string characters out of 5793174
+ 4454 strings out of 476041
+ 64396 string characters out of 5793174
  1952388 words of memory out of 6000000
- 24811 multiletter control sequences out of 15000+600000
+ 24839 multiletter control sequences out of 15000+600000
  518420 words of font info for 52 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 57i,12n,68p,500b,1726s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sf
-ti1000.pfb>
-Output written on Reference.pdf (10 pages, 258709 bytes).
+ 57i,12n,68p,500b,1846s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on Reference.pdf (11 pages, 276496 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

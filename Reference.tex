@@ -27,7 +27,7 @@
 
 %opening
 \title{Reference \\ \small Team: Racso va a Caer}
-\author{Iván Gálvez Rodríguez, et. al.}
+\author{Iván Gálvez Rodríguez, Victor Gabriel Espinosa Sosa, Rafael Soto López}
 
 
 
@@ -191,14 +191,21 @@ Exclusive of the GCC compiler collection.
 
 
 
+\subsection{GCD}
+\subsubsection{Logarithmic GCD}
+
+\lstinputlisting[caption=Iterative logarithmic GCD]{./ref_algos/iter_gcd.cpp}
+
+\subsubsection{LCM}
+
+\lstinputlisting[caption=LCM stolen from CP-Algos]{./ref_algos/lcm.cpp}
 
 \section{Maths}
 \subsection{Value of pi}
 The value of $\pi$ is not always available. It can be obtained as $\cos^{-1}(-1)$.
-\subsection{*Sigma function ($\sigma$)}
 \subsection{Modular inverse}
 $$
-a\cdot a^{p-2} \cong 1 ~ (mod~ p) \rightarrow a^{-1} = a^{p-2}
+a\cdot a^{p-2} \cong 1 ~ (mod~ p) \quad\rightarrow\quad a^{-1} = a^{p-2}
 $$
 
 \subsection{Bitwise operations}
@@ -235,5 +242,16 @@ $$
  a-b &= ((a|b)\oplus b) - (b\oplus (a\&b))
 \end{array}
 $$
+
+\subsection{Number of divisors}
+
+The number of the divisors is computed as $(p_1^{e_1} + 1)(p_2^{e_2})\cdots(p_k^{e_k}+1)$
+
+\lstinputlisting[caption=Number of divisors - Courtesy of CP Algos]{./ref_algos/number_of_divisors.cpp}
+
+\subsection{Sum of divisors (Sigma function $\sigma$)}
+The sum of the divisors of a number is computed as $\sigma(n)=\frac{p_1^{e_1+1}-1}{p_1-1}\cdot\frac{p_2^{e_2+1}-1}{p_2-1}\cdots\frac{p_k^{e_k+1}-1}{p_k-1}$
+
+\lstinputlisting[caption=Sum of divisors - Courtesy of CP Algos]{./ref_algos/sigma.cpp}
 
 \end{document}
