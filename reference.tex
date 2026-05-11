@@ -1,0 +1,45 @@
+\documentclass[8pt, letterpaper]{article}
+\usepackage[landscape, margin=1cm]{geometry}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{listings}
+
+\title{Reference}
+\author{Acetil}
+\date{Today!}
+
+\begin{document}
+\lstset{
+    language=c++,
+    %numbers=left,
+    %numberstyle=\tiny,
+    frame=single,
+    basicstyle=\fontfamily{pcr}\selectfont\scriptsize
+}
+\maketitle
+
+\begin{multicols}{2}
+    \tableofcontents
+\end{multicols}
+
+\begin{multicols}{3}
+\section{Language stuff}
+\lstinputlisting{./ref_algos/language_stuff.c++}
+
+\section{Algorithms}
+\subsection{Segment tree}
+\subsubsection{Recursive SegTree}
+
+\lstinputlisting{./ref_algos/segment_tree_recursive.cpp}
+
+
+
+
+\section{Maths}
+
+\lipsum{2}
+\end{multicols}
+
+\end{document}
+
+

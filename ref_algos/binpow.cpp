@@ -1,10 +1,21 @@
-long long binpow(long long a, long long n) {
+#include <bits/stdc++.h>
+
+using namespace std;
+
+const int MOD = 1e9 + 7;
+
+long long binpow(long long x, long long n)
+{
     long long ans = 1;
-    while (n > 0) {
-        if (n & 1)
-            ans *= a;
-        a *= a;
-        n >>= 1;
+
+    while(n > 0)
+    {
+        if(n & 1)
+            ans = (ans * x) % MOD;
+
+        x = (x * x) % MOD;
+        n >>= 2;
     }
-    return ans;
+
+    return ans % MOD;
 }

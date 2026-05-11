@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Language stuff}{1}{}%
+\contentsline {section}{\numberline {2}Algorithms}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Segment tree}{1}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Recursive SegTree}{1}{}%
+\contentsline {section}{\numberline {3}Maths}{2}{}%
