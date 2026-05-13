@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  11 MAY 2026 14:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  13 MAY 2026 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,15 +245,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 (./reference.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `reference.toc'.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
-7.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
+1.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -278,7 +278,14 @@ File: omspcr.fd
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
 )
-(./ref_algos/segment_tree_recursive.cpp
+(./ref_algos/read_line.cpp
+LaTeX Font Info:    Font shape `OMS/pcr/m/it' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+) (./ref_algos/stringstream.cpp)
+(./ref_algos/string_manip.cpp) (./ref_algos/segment_tree_recursive.cpp [1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
 6.
 
@@ -306,38 +313,47 @@ Overfull \hbox (12.64774pt too wide) in paragraph at lines 63--64
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[1
+) (./ref_algos/gcd.cpp) (./ref_algos/binpow.cpp) (./ref_algos/prim.cpp)
+(./ref_algos/dijkstra.cpp [2]
+Overfull \hbox (12.64774pt too wide) in paragraph at lines 31--32
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]) [2]
-(./reference.aux)
+) (./ref_algos/kahn.cpp) (./ref_algos/dsu.cpp
+LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <7> not available
+(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 17.
+) (./ref_algos/ordered_set.cpp)
+(./ref_algos/sum_all_divisors.cpp) [3] (./reference.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3641 strings out of 467349
- 57879 string characters out of 5415641
- 870631 words of memory out of 5000000
- 32712 multiletter control sequences out of 15000+600000
- 634132 words of font info for 62 fonts, out of 8000000 for 9000
+ 3856 strings out of 467349
+ 61248 string characters out of 5415641
+ 961631 words of memory out of 5000000
+ 32894 multiletter control sequences out of 15000+600000
+ 634444 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,6n,77p,254b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,6n,77p,254b,1750s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
-l/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texliv
-e/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/t
-exmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on reference.pdf (2 pages, 124182 bytes).
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
+live/2026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/202
+6/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on reference.pdf (3 pages, 166684 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

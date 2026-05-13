@@ -1,5 +1,20 @@
 \contentsline {section}{\numberline {1}Language stuff}{1}{}%
-\contentsline {section}{\numberline {2}Algorithms}{1}{}%
-\contentsline {subsection}{\numberline {2.1}Segment tree}{1}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Recursive SegTree}{1}{}%
-\contentsline {section}{\numberline {3}Maths}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Libraries and stuff}{1}{}%
+\contentsline {subsection}{\numberline {1.2}String reading}{1}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Reading lines}{1}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}String streams}{1}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Appending to string}{1}{}%
+\contentsline {section}{\numberline {2}Algorithms}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Segment tree}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Recursive SegTree}{2}{}%
+\contentsline {subsection}{\numberline {2.2}GCD}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Binpow}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Prim}{2}{}%
+\contentsline {subsection}{\numberline {2.5}Dijkstra}{2}{}%
+\contentsline {subsection}{\numberline {2.6}Kahn}{3}{}%
+\contentsline {section}{\numberline {3}Data Structures}{3}{}%
+\contentsline {subsection}{\numberline {3.1}DSU}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Ordered Set}{3}{}%
+\contentsline {section}{\numberline {4}Maths}{3}{}%
+\contentsline {subsection}{\numberline {4.1}Sum of divisors}{3}{}%
+\contentsline {subsection}{\numberline {4.2}Hashing}{3}{}%

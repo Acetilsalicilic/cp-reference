@@ -22,22 +22,85 @@
     \tableofcontents
 \end{multicols}
 
+\noindent\rule{\textwidth}{0.4pt}
+
 \begin{multicols}{3}
 \section{Language stuff}
+
+\subsection{Libraries and stuff}
 \lstinputlisting{./ref_algos/language_stuff.c++}
 
+\subsection{String reading}
+\subsubsection{Reading lines}
+\lstinputlisting{./ref_algos/read_line.cpp}
+
+\subsubsection{String streams}
+\lstinputlisting{./ref_algos/stringstream.cpp}
+
+\subsubsection{Appending to string}
+\lstinputlisting{./ref_algos/string_manip.cpp}
+
+
+
+
+
+
 \section{Algorithms}
+
 \subsection{Segment tree}
 \subsubsection{Recursive SegTree}
 
 \lstinputlisting{./ref_algos/segment_tree_recursive.cpp}
 
+\subsection{GCD}
+\lstinputlisting{./ref_algos/gcd.cpp}
+
+\subsection{Binpow}
+\lstinputlisting{./ref_algos/binpow.cpp}
+
+\subsection{Prim}
+\lstinputlisting{./ref_algos/prim.cpp}
+
+\subsection{Dijkstra}
+\lstinputlisting{./ref_algos/dijkstra.cpp}
+
+\subsection{Kahn}
+\lstinputlisting{./ref_algos/kahn.cpp}
+
+
+
+
+\section{Data Structures}
+\subsection{DSU}
+\lstinputlisting{./ref_algos/dsu.cpp}
+
+\subsection{Ordered Set}
+\lstinputlisting{./ref_algos/ordered_set.cpp}
+
+
+
+
+
+
 
 
 
 \section{Maths}
+\subsection{Sum of divisors}
+\lstinputlisting{./ref_algos/sum_all_divisors.cpp}
 
-\lipsum{2}
+\subsection{Hashing}
+$$
+H(s) = (s_i p^{i-1} + s_{i+1}p^i+...)\% M=\sum_{i=1}^{|s|}s_i p^{i-1} \% M
+$$
+$$
+\begin{array}{rl}
+ M_1 = 127657753, & p_1 = 137 \\
+ M_2 = 987654319, & p_2 = 277
+\end{array}
+$$
+
+%\lipsum{2}
 \end{multicols}
 
 \end{document}
