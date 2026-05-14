@@ -5,6 +5,7 @@
 \usepackage{lipsum}
 \usepackage{listings}
 \usepackage{titlesec}
+\usepackage[colorlinks=true, linkcolor=black, linktoc=all]{hyperref}
 
 \title{Reference}
 \author{Acetil, Xook.Vector, rafaelsosotolopez}
@@ -52,13 +53,17 @@
     \tableofcontents
 \end{multicols}
 
-\noindent\rule{\textwidth}{0.8pt}
+\noindent\rule{\textwidth}{0.6pt}
 
 \begin{multicols}{2}
+% ### Language stuff
 \section{Language stuff}
 
 \subsection{Libraries and stuff}
 \lstinputlisting{./ref_algos/language_stuff.c++}
+
+\subsection{Compiling}
+\lstinputlisting{./ref_algos/how_to_compile.sh}
 
 \subsection{String reading}
 \subsubsection{Reading lines}
