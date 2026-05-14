@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  13 MAY 2026 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  14 MAY 2026 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -170,6 +170,18 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box101
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen172
+\ttl@minus=\dimen173
+\ttl@toksa=\toks20
+\titlewidth=\dimen174
+\titlewidthlast=\dimen175
+\titlewidthfirst=\dimen176
+)
 
 LaTeX Warning: Unused global option(s):
     [8pt].
@@ -177,20 +189,20 @@ LaTeX Warning: Unused global option(s):
 (./reference.aux)
 \openout1 = `reference.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -199,13 +211,13 @@ LaTeX Font Info:    ... okay on input line 11.
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: landscape 
-* h-part:(L,W,R)=(28.45274pt, 738.0645pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 557.38951pt, 28.45274pt)
-* \paperwidth=794.96999pt
-* \paperheight=614.295pt
-* \textwidth=738.0645pt
-* \textheight=557.38951pt
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=557.38951pt
+* \textheight=738.0645pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-80.81725pt
@@ -237,11 +249,11 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 21.
 
 (./reference.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -252,7 +264,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `reference.toc'.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
 1.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -292,51 +304,37 @@ LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
-Overfull \hbox (12.64774pt too wide) in paragraph at lines 30--31
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (46.24808pt too wide) in paragraph at lines 33--34
+Overfull \hbox (11.90816pt too wide) in paragraph at lines 33--34
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
  []
 
 
-Overfull \hbox (67.24829pt too wide) in paragraph at lines 48--49
+Overfull \hbox (32.90837pt too wide) in paragraph at lines 48--49
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
- []
-
-
-Overfull \hbox (12.64774pt too wide) in paragraph at lines 63--64
-[][][][][][][][][][][][][][][][][][][][][] 
  []
 
 ) (./ref_algos/gcd.cpp) (./ref_algos/binpow.cpp) (./ref_algos/prim.cpp)
-(./ref_algos/dijkstra.cpp [2]
-Overfull \hbox (12.64774pt too wide) in paragraph at lines 31--32
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (./ref_algos/kahn.cpp) (./ref_algos/dsu.cpp
+(./ref_algos/dijkstra.cpp [2]) (./ref_algos/kahn.cpp) (./ref_algos/dsu.cpp
 LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <7> not available
 (Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 17.
-) (./ref_algos/ordered_set.cpp)
-(./ref_algos/sum_all_divisors.cpp) [3] (./reference.aux)
+)
+(./ref_algos/ordered_set.cpp) (./ref_algos/sum_all_divisors.cpp) [3]
+(./reference.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3856 strings out of 467349
- 61248 string characters out of 5415641
- 961631 words of memory out of 5000000
- 32894 multiletter control sequences out of 15000+600000
- 634444 words of font info for 63 fonts, out of 8000000 for 9000
+ 4171 strings out of 467349
+ 65467 string characters out of 5415641
+ 1012488 words of memory out of 5000000
+ 33204 multiletter control sequences out of 15000+600000
+ 634138 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,6n,77p,254b,1750s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,6n,77p,254b,1815s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -346,14 +344,15 @@ r/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
 cal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
-live/2026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/202
-6/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-
-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on reference.pdf (3 pages, 166684 bytes).
+exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
+ive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2026/t
+exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on reference.pdf (3 pages, 178923 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

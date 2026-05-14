@@ -4,9 +4,9 @@
 \contentsline {subsubsection}{\numberline {1.2.1}Reading lines}{1}{}%
 \contentsline {subsubsection}{\numberline {1.2.2}String streams}{1}{}%
 \contentsline {subsubsection}{\numberline {1.2.3}Appending to string}{1}{}%
-\contentsline {section}{\numberline {2}Algorithms}{2}{}%
-\contentsline {subsection}{\numberline {2.1}Segment tree}{2}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Recursive SegTree}{2}{}%
+\contentsline {section}{\numberline {2}Algorithms}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Segment tree}{1}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Recursive SegTree}{1}{}%
 \contentsline {subsection}{\numberline {2.2}GCD}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Binpow}{2}{}%
 \contentsline {subsection}{\numberline {2.4}Prim}{2}{}%

@@ -1,11 +1,13 @@
 \documentclass[8pt, letterpaper]{article}
-\usepackage[landscape, margin=1cm]{geometry}
+%\usepackage[landscape, margin=1cm]{geometry}
+\usepackage[margin=1cm]{geometry}
 \usepackage{multicol}
 \usepackage{lipsum}
 \usepackage{listings}
+\usepackage{titlesec}
 
 \title{Reference}
-\author{Acetil}
+\author{Acetil, Xook.Vector, rafaelsosotolopez}
 \date{Today!}
 
 \begin{document}
@@ -18,13 +20,41 @@
 }
 \maketitle
 
+% ########
+% # Title's configuration
+% ########
+\titleformat
+    {\section}
+    [frame]
+    {\normalfont\large}
+    {\thesection}
+    {.5em}
+    {\centering\textbf}
+    {}
+
+\titleformat
+    {\subsection}
+    [block]
+    {\normalfont\normalsize}
+    {\thesubsection.}
+    {.5em}
+    {\textbf}
+
+\titleformat
+    {\subsubsection}
+    [block]
+    {\normalfont\small}
+    {\thesubsubsection.}
+    {.5em}
+    {}
+
 \begin{multicols}{2}
     \tableofcontents
 \end{multicols}
 
-\noindent\rule{\textwidth}{0.4pt}
+\noindent\rule{\textwidth}{0.8pt}
 
-\begin{multicols}{3}
+\begin{multicols}{2}
 \section{Language stuff}
 
 \subsection{Libraries and stuff}
