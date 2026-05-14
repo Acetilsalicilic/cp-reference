@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-
-using namespace std;
-
 const int MOD = 1e9 + 7;
 
 long long binpow(long long x, long long n)
