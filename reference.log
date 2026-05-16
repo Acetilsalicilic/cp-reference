@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  15 MAY 2026 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  15 MAY 2026 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,7 +500,7 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `reference.out' has not changed.
-(rerunfilecheck)             Checksum: 0BD216BD85AC9D339E4A0EAA86FAA4F9;3530.
+(rerunfilecheck)             Checksum: AE5DFF04B599EDBE6D26DDC3450D608D;3525.
  ) 
 Here is how much of TeX's memory you used:
  12576 strings out of 467349

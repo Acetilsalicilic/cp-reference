@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.2}GCD}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Binpow}{2}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Prim - MST}{3}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Dijkstra - Shortest path weight}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Dijkstra - Minimum weight path}{3}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Kahn - Topo Sort}{3}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Data Structures}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}DSU}{3}{subsection.3.1}%
