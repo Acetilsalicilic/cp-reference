@@ -5,21 +5,28 @@
 \contentsline {subsubsection}{\numberline {1.3.1}Reading lines}{1}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}String streams}{1}{subsubsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.3}Appending to string}{1}{subsubsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.4}Primitive types}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.4}Upper and lower bound}{2}{subsection.1.4}%
+\contentsline {paragraph}{-}{2}{paragraph*.1}%
+\contentsline {paragraph}{-}{2}{paragraph*.2}%
+\contentsline {subsection}{\numberline {1.5}Primitive types}{2}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Algorithms}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Segment tree}{2}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Recursive SegTree}{2}{subsubsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.2}GCD}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Binpow}{2}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Prim}{2}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Dijkstra}{3}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Kahn}{3}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.4}Prim - MST}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Dijkstra - Shortest path weight}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Kahn - Topo Sort}{3}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Data Structures}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}DSU}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Ordered Set}{3}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Maths}{3}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Sum of divisors}{3}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.2}Ordered Set}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}How to use it}{4}{subsubsection.3.2.1}%
+\contentsline {paragraph}{-}{4}{paragraph*.3}%
+\contentsline {paragraph}{-}{4}{paragraph*.4}%
+\contentsline {section}{\numberline {4}Maths}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Sum of divisors}{4}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Hashing}{4}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Bitwise}{4}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Properties}{4}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}Equations}{4}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Fermat's Little Theorem}{4}{subsection.4.4}%

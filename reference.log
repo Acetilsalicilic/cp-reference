@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  15 MAY 2026 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  15 MAY 2026 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -484,44 +484,32 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 LaTeX Font Info:    Font shape `OMS/pcr/m/it' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
 ) (./ref_algos/stringstream.cpp)
-(./ref_algos/string_manip.cpp) [1
+(./ref_algos/string_manip.cpp [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./ref_algos/segment_t
-ree_recursive.cpp
-Overfull \hbox (0.52724pt too wide) in paragraph at lines 33--34
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-
-Overfull \hbox (21.52745pt too wide) in paragraph at lines 48--49
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
- []
-
-) (./ref_algos/gcd.cpp) (./ref_algos/binpow.cpp) (./ref_algos/prim.cpp [2])
-(./ref_algos/dijkstra.cpp) (./ref_algos/kahn.cpp) (./ref_algos/dsu.cpp
+al/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./ref_algos/segment_
+tree_recursive.cpp) (./ref_algos/gcd.cpp)
+(./ref_algos/binpow.cpp [2]) (./ref_algos/prim.cpp
 LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <7> not available
-(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 17.
-)
-(./ref_algos/ordered_set.cpp) (./ref_algos/sum_all_divisors.cpp) [3] [4]
-(./reference.aux)
+(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 14.
+) (./ref_algos/dijkstra.cpp)
+(./ref_algos/kahn.cpp) (./ref_algos/dsu.cpp [3]) (./ref_algos/ordered_set.cpp)
+(./ref_algos/sum_all_divisors.cpp) [4] (./reference.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `reference.out' has not changed.
-(rerunfilecheck)             Checksum: ECB17135BE0A2F02834B039B7778A31A;2805.
+(rerunfilecheck)             Checksum: 0BD216BD85AC9D339E4A0EAA86FAA4F9;3530.
  ) 
 Here is how much of TeX's memory you used:
- 12530 strings out of 467349
- 194907 string characters out of 5415641
- 1047961 words of memory out of 5000000
- 41059 multiletter control sequences out of 15000+600000
- 634491 words of font info for 63 fonts, out of 8000000 for 9000
+ 12576 strings out of 467349
+ 195557 string characters out of 5415641
+ 1073008 words of memory out of 5000000
+ 41071 multiletter control sequences out of 15000+600000
+ 634659 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,254b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,329b,2302s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -535,13 +523,14 @@ exlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
 ive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texli
 ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
-2026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2026/tex
-mf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/
-fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on reference.pdf (4 pages, 222730 bytes).
+2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2
+026/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2026/texm
+f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/f
+onts/type1/urw/courier/ucrro8a.pfb>
+Output written on reference.pdf (4 pages, 248813 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
- 384 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 755 PDF objects out of 1000 (max. 8388607)
+ 707 compressed objects within 8 object streams
+ 417 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 

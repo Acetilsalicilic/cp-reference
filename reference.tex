@@ -14,8 +14,8 @@
 \usepackage[colorlinks=true, linkcolor=black, linktoc=all]{hyperref}
 
 \title{Reference}
-\author{Acetil, Xook.Vector, rafaelsotolopez}
-\date{Today!}
+\author{Team: Racso va a caer. Acetilsalicilic, Xook.Vector, rafaelsotolopez}
+\date{16 de mayo de 2026}
 
 \begin{document}
 \lstset{
@@ -83,6 +83,13 @@
 \subsubsection{Appending to string}
 \lstinputlisting{./ref_algos/string_manip.cpp}
 
+\subsection{Upper and lower bound}
+\paragraph{-} \verb|upper_bound(a.begin(), a.end(), k)|: Returns an iterator for the first element $e$ that is \textbf{strictly greater} than $k$. In other words, $e > k$.
+
+\paragraph{-} \verb|lower_bound(a.begin(), a.end(), k)|: Returns an iterator for the first element $e$ that is \textbf{greater or equal} than $k$. In other words, $a \geq k$.
+
+Note: never use it over a set. Set has it's own implementation as a method: \verb|set::lower_bound(k)|.
+
 
 \subsection{Primitive types}
 
@@ -101,7 +108,7 @@
 
 
 
-
+%
 
 \section{Algorithms}
 
@@ -116,13 +123,13 @@
 \subsection{Binpow}
 \lstinputlisting{./ref_algos/binpow.cpp}
 
-\subsection{Prim}
+\subsection{Prim - MST}
 \lstinputlisting{./ref_algos/prim.cpp}
 
-\subsection{Dijkstra}
+\subsection{Dijkstra - Shortest path weight}
 \lstinputlisting{./ref_algos/dijkstra.cpp}
 
-\subsection{Kahn}
+\subsection{Kahn - Topo Sort}
 \lstinputlisting{./ref_algos/kahn.cpp}
 
 
@@ -134,6 +141,12 @@
 
 \subsection{Ordered Set}
 \lstinputlisting{./ref_algos/ordered_set.cpp}
+
+\subsubsection{How to use it}
+
+\paragraph{-} \verb|o_set::order_of_key(k)|: Gets the number of elements that are \textbf{strinctly smaller} than $k$. $e < k$. If $k$ is greater than every element in the set, then it returns \verb|set.size()|.
+
+\paragraph{-} \verb|o_set::find_by_order(n)|: Returns an iterator to the $n$-th element counting from zero. That is, gets the element that has a \verb|order_of_key| of $n$. If no such element exists, i.e. the requested element is too big, then \verb|set.end()| is returned.
 
 
 
@@ -179,6 +192,11 @@ $$
  a-b &= (a \oplus (a\& b)) - (b \oplus (a \& b)) \\
  a-b &= ((a|b)\oplus b) - (b\oplus (a\&b))
 \end{array}
+$$
+
+\subsection{Fermat's Little Theorem}
+$$
+a^{p-1} \equiv 1 ~ mod ~p \quad \Longrightarrow \quad gcd(a, p)=1
 $$
 \end{multicols}
 
