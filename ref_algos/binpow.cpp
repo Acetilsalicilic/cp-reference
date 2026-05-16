@@ -10,7 +10,7 @@ long long binpow(long long x, long long n)
             ans = (ans * x) % MOD;
 
         x = (x * x) % MOD;
-        n >>= 2;
+        n >>= 1;
     }
 
     return ans % MOD;

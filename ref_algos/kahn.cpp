@@ -2,7 +2,7 @@
 using namespace std;
 int V; // Number of vertices
 int E; // Number of edges
-vector<int> indegree(V+1,0);
+vector<int> indegree(V+1,0); // Needs to be populated
 
 vector<int> kahn(vector<vector<int>> const& graph)
 {
