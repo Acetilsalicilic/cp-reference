@@ -1,14 +1,20 @@
 \documentclass[8pt, letterpaper]{article}
 %\usepackage[landscape, margin=1cm]{geometry}
-\usepackage[margin=1cm]{geometry}
+\usepackage[
+    margin=1.2cm,
+    lmargin=.6cm,
+    rmargin=.6cm,
+    headsep=.2cm
+    ]{geometry}
 \usepackage{multicol}
 \usepackage{lipsum}
 \usepackage{listings}
 \usepackage{titlesec}
+\usepackage{fancyhdr}
 \usepackage[colorlinks=true, linkcolor=black, linktoc=all]{hyperref}
 
 \title{Reference}
-\author{Acetil, Xook.Vector, rafaelsosotolopez}
+\author{Acetil, Xook.Vector, rafaelsotolopez}
 \date{Today!}
 
 \begin{document}
@@ -19,6 +25,8 @@
     frame=single,
     basicstyle=\fontfamily{pcr}\selectfont\scriptsize
 }
+\pagestyle{fancy}
+\fancyhead[C]{Team: Racso va a caer}
 \maketitle
 
 % ########
@@ -74,6 +82,21 @@
 
 \subsubsection{Appending to string}
 \lstinputlisting{./ref_algos/string_manip.cpp}
+
+
+\subsection{Primitive types}
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c| }
+ \hline
+ \textbf{keyword} & \textbf{Bytes} & \textbf{M$_{10}$} & \textbf{m$_{10}$} & \textbf{M$_{2}$} & \textbf{m$_{2}$}\\
+ \hline
+ int & 4 & $2\cdot 10^9$ & $-2\cdot 10^9$ & $2^{31} - 1$ & $-2^{31}$ \\
+ \hline
+ long long & 8 & $2^{63} - 1$ & $-2^{63}$ & $9\cdot10^{18}$ & $-9\cdot10^{18}$ \\
+ \hline
+\end{tabular}
+\end{center}
 
 
 
@@ -135,7 +158,28 @@ $$
 \end{array}
 $$
 
-%\lipsum{2}
+
+\subsection{Bitwise}
+\subsubsection{Properties}
+$$
+\begin{array}{rl}
+a | b &= a \oplus + a \& b \\
+a \oplus (a \& b) &= (a|b)\oplus b \\
+b \oplus (a \& b) &= (a | b)\oplus a \\
+(a \& b) \oplus (a|b) &= a\oplus b
+\end{array}
+$$
+\subsubsection{Equations}
+$$
+\begin{array}{rl}
+ a+b &= (a|b)+(a \& b) \\
+ a+b &= a\oplus b + 2(a \& b) \\
+ a-b &= (a \oplus(a \& b))-((a|b)\oplus a) \\
+ a-b &= ((a|b)\oplus b) - ((a|b)\oplus a) \\
+ a-b &= (a \oplus (a\& b)) - (b \oplus (a \& b)) \\
+ a-b &= ((a|b)\oplus b) - (b\oplus (a\&b))
+\end{array}
+$$
 \end{multicols}
 
 \end{document}
