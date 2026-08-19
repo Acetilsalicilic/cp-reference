@@ -132,6 +132,19 @@ Note: never use it over a set. Set has it's own implementation as a method: \ver
 \subsection{Kahn - Topo Sort}
 \lstinputlisting{./ref_algos/kahn.cpp}
 
+\subsection{LPS}
+\lstinputlisting{./ref_algos/lps.cpp}
+
+\subsection{Knapsack - DP}
+\lstinputlisting{./ref_algos/knapsack.cpp}
+
+%
+
+
+
+
+
+
 
 
 
@@ -147,6 +160,8 @@ Note: never use it over a set. Set has it's own implementation as a method: \ver
 \paragraph{-} \verb|o_set::order_of_key(k)|: Gets the number of elements that are \textbf{strinctly smaller} than $k$. $e < k$. If $k$ is greater than every element in the set, then it returns \verb|set.size()|.
 
 \paragraph{-} \verb|o_set::find_by_order(n)|: Returns an iterator to the $n$-th element counting from zero. That is, gets the element that has a \verb|order_of_key| of $n$. If no such element exists, i.e. the requested element is too big, then \verb|set.end()| is returned.
+
+
 
 
 
